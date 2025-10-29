@@ -5,7 +5,7 @@
 <pre>
   1. DCL(Data Controll Language)
   
-    GRANT(권한 부여), REVOKE(권한 제거)
+    GRANT, REVOKE
 
   
   2. DDL(Data Definition Language)
@@ -20,5 +20,5 @@
   
   4. TCL(Transaction Controll Language)
 
-    
+    COMMIT, ROLLBACK, SAVEPOINT
 </pre>
