@@ -109,3 +109,27 @@
 | 해당 사항 없음 | 미혼인 고객의 결혼기념일 |
 | 노출할 수 없는 값 | 고객 비밀번호 찾기 같은 열람을 제한해야 하는 특정 개인 정보 |
 | 확정되지 않은 값 | 미성년자의 출신 대학 |
+
+##### and 연산자의 NULL 결과
+| 피연산자 | TRUE | FALSE | NULL |
+| --------| ----- |------ | ---- |
+| TRUE | true | false | null |
+| FALSE | false | false | false |
+| NULL | null | false | null |
+
+
+##### OR 연산자의 NULL 결과
+| 피연산자 | TRUE | FALSE | NULL |
+| --------| ----- |------ | ---- |
+| TRUE | true | true | true |
+| FALSE | true | false | NULL |
+| NULL | true | NULL | NULL |
+
+
+### 집합 연산자
+| 종류 | 설명 |
+| --- | --- |
+| UNION | 연결된 SELECT 문의 결과를 합집합으로 묶고 중복은 제거 |
+| UNION ALL | 연결된 SELECT 문의 결과를 합집합으로 묶고 중복 출력 |
+| MINUS | 먼저 작성한 SELECT 문의 결과에서 다음 SELECT 문의 결과값을 차집합 처리 |
+| INTERSECT | 먼저 작성한 SELECT 문의 결과와 다음 SELECT 문의 결과 중 교집합 처리 |
