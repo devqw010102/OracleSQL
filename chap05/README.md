@@ -122,8 +122,8 @@
 | 피연산자 | TRUE | FALSE | NULL |
 | --------| ----- |------ | ---- |
 | TRUE | true | true | true |
-| FALSE | true | false | NULL |
-| NULL | true | NULL | NULL |
+| FALSE | true | false | null |
+| NULL | true | null | null |
 
 
 ### 집합 연산자
