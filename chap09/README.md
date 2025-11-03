@@ -22,7 +22,7 @@
   </code>
 </pre>
 
-#### 3. FROM 절에 SELECT    - VIEW
+#### 3. FROM 절에 SELECT    - 뷰
 <pre>
   <code>
     SELECT *
