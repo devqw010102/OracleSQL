@@ -39,3 +39,15 @@
   
   EX) <code>SELECT * FROM EMP ORDER BY SAL;</code>
 </pre>
+
+###### 구문 구조
+<pre>
+  <code>
+    SELECT 열명
+    FROM 테이블명
+    WHERE 조건식
+    GROUP BY 열명
+    HAVING 조건식
+    ORDER BY 열명
+  </code>
+</pre>
