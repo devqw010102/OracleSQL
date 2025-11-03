@@ -50,4 +50,4 @@ SELECT EMPNO, ENAME, MGR,
             WHEN SUBSTR(MGR, 1, 2) = 78 THEN '8888'
             ELSE TO_CHAR(MGR)
        END AS CHG_MGR
-    FROM EMP;
+    FROM EMP;   
