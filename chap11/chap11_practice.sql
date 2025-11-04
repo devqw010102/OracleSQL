@@ -1,0 +1,22 @@
+--되새김 문제
+-- P 296
+
+-- 사전작업
+CREATE TABLE DEPT_HW AS SELECT * FROM DEPT;
+
+--1번
+UPDATE DEPT_HW
+    SET DNAME = 'DATABASE',
+        LOC = 'SEOUL'
+    WHERE DEPTNO = 30;
+    
+SELECT * FROM DEPT_HW;
+
+--2번
+ROLLBACK;
+
+SELECT * FROM DEPT_HW;
+
+--3번
+
+SELECT * FROM DEPT_HW;
